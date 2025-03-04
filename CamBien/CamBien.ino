@@ -22,7 +22,7 @@ const char* ssid = "IoT";
 const char* password = "234567Cn";
 
 // Cấu hình MQTT
-const char* mqttServer = "192.168.0.100";
+const char* mqttServer = "192.168.0.101";
 const int mqttPort = 1883;               // Cổng MQTT
 const char* mqttTopic = "CamBien"; // Topic để gửi dữ liệu
 
