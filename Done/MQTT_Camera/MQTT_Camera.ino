@@ -6,13 +6,13 @@
 // ===========================
 // Thông tin WiFi
 // ===========================
-const char* ssid = "IoT";
+const char* ssid = "BM_CNTT_410";
 const char* password = "234567Cn";
 
 // ===========================
 // Thông tin MQTT
 // ===========================
-const char* mqtt_server = "192.168.0.101";  // Thay bằng địa chỉ broker MQTT của bạn
+const char* mqtt_server = "192.168.110.150";  // Thay bằng địa chỉ broker MQTT của bạn
 const int mqtt_port = 1883;
 const char* mqtt_topic = "Camera_vip";  // Topic MQTT để gửi ảnh
 

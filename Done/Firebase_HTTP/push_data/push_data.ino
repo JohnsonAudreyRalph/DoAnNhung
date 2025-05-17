@@ -3,10 +3,10 @@
 #include <WiFiClientSecure.h>
 #include <time.h>  // Thư viện lấy thời gian
 
-#define WIFI_SSID "IoT"
+#define WIFI_SSID "BM_CNTT_410"
 #define WIFI_PASSWORD "234567Cn"
-#define API_KEY "AIzaSyC71pIn7RIS-_fXf-1v0y9UoA1cQaOrR34"  // Thay API Key của bạn vào đây
-#define FIREBASE_HOST "test-esp8266-81b75-default-rtdb.firebaseio.com"  // Thay bằng URL Firebase
+#define API_KEY "AIzaSyD1zbLwTH6sraUU7wcsJEQLfu7XjIdtGnI"  // Thay API Key của bạn vào đây
+#define FIREBASE_HOST "esp8266-178db-default-rtdb.asia-southeast1.firebasedatabase.app"  // Thay bằng URL Firebase
 #define DATABASE_PATH "/New_data.json"  // Đường dẫn dữ liệu
 
 void setup() {
